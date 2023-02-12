@@ -15,7 +15,7 @@
 		  modalText.id = "modal_p";
 		  modalText.className = "modal_p";
 		  //modalText.style = "flex: 55%";
-		  modalText.innerHTML = '<div id="sticky_mobil_id" onclick="openMenuModal()"><a id="logo_mobil_id">Cristian Instructor Auto</a><div id="meniu_mobil_id" class="header-right_class"><a id="home_button_mobil_id" class="active_class" onclick="goToHome()">Home</a><a id="contact_button_mobil_id" onclick="goToContact()">Contact</a><a id="about_button_mobil_id" onclick="goToAbout()">About</a></div></div>';
+		  modalText.innerHTML = '<div id="sticky_mobil_id" onclick="openMenuModal()"><a id="logo_mobil_id">Cristian Instructor Auto</a><div id="meniu_mobil_id" class="header-right_class"><a id="home_button_mobil_id" class="active_class" onclick="goToHome()">Home</a><a id="contact_button_mobil_id" onclick="goToContact()">Galerie foto</a><a id="about_button_mobil_id" onclick="goToAbout()">About</a></div></div>';
 		  modalContent.appendChild(modalText);	  
 		  
 
