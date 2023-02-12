@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  #container_meniu_mobil_id {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #logo_mobil {
+    flex: 0 0 80%;    
+    text-align: left;
+    color: brown;
+	font-size:16px;
+  }
+
+  #3lines {
+    flex: 0 0 20%;    
+    text-align: right;
+  }
+
+}

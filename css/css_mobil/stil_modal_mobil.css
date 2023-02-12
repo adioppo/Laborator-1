@@ -1,0 +1,98 @@
+/* Style for the modal */
+    .modal {
+      display: none; /* Hide the modal by default */
+      position: fixed; /* Stay in the center of the screen */
+      z-index: 1; /* Make sure the modal is on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+    }
+
+    /* Style for the modal content */
+    .modal-content {
+     display:flex;
+	 justify-content: space-between;
+	 background-color:#f1f1f1;
+	 /*height:100px;*/
+    }
+	
+
+    /* Style for the close button */
+    .close {
+      color: black;
+      float: right;
+      font-size: 50px; /*dimensiunea x-ului de inchidere*/
+      font-weight: bold;
+      cursor: pointer;
+	  
+    }
+	
+	#sticky_mobil_id a {
+  /*
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  */
+  float: none;
+    display: block;
+    text-align: left;
+  
+}
+#modal_p
+	{		
+		margin: 0px;
+	flex-grow:2;
+	}
+	
+#buton_x
+	{		
+		
+	
+	}
+	
+#logo_mobil_id
+{
+	color: red;     
+    font-weight: bold;
+	padding: 18px;
+}
+
+#sticky_mobil_id
+{
+	  width:100%;
+}
+#meniu_mobil_id
+{
+	 background-color:#f1f1f1;
+	 padding:10px;
+	 align-items: center; /*butoanele de meniu, din modal, in centrul div-ului care le contine */
+	 //justify-content: center;
+	 display:flex;
+	 flex-direction:column;
+	 
+}
+
+#meniu_mobil_id a
+{
+	color: blue;     
+    font-weight: bold;	
+  padding: 18px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 20px;
+  background-color: pink;
+  width:70%;
+  margin: 10px;
+  text-align:center; /*textul in centrul butoanelor din meniu, in modal*/
+
+}	
